@@ -1,7 +1,7 @@
 # Silence template: ez-ui
 
 Template of the student's frontend for [Silence](https://github.com/DEAL-US/Silence) 3,
-with [ez-ui](https://github.com/IISSI-US/ez-ui). It is the default one:
+with [ez-ui](https://iissi-us.github.io/ez-ui/). It is the default one:
 
 ```
 silence new myproject                    # this template and the admin panel
