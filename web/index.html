@@ -1,18 +1,42 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mi aplicación</title>
+  <title>My application</title>
   <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="ez-ui/css/ez-ui.css">
   <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
   <main class="ez-container">
-    <h1>Mi aplicación</h1>
-    <p>Proyecto creado con <code>silence new</code>. Las páginas están en <code>web/</code>; la API, en
-      <a href="/api">/api</a>, y el panel de administración, en <a href="/admin/">/admin</a>.</p>
+    <h1>My application</h1>
+    <p>A project created with <code>silence new</code>. Silence serves this web app at <code>/</code>, the
+      API at <code>/api</code> and the admin panel at <code>/admin/</code>.</p>
+    <p>
+      <a class="ez-button" href="/admin/">Admin panel</a>
+      <a class="ez-button ez-button--secondary" href="/api">API</a>
+    </p>
+
+    <h2>Where things are</h2>
+    <ul>
+      <li><code>web/</code>: the pages of this web app, starting with this <code>index.html</code>.</li>
+      <li><code>web/css/app.css</code>: your own styles, after the ones of ez-ui (<code>web/ez-ui/</code>,
+        which is not modified).</li>
+      <li><code>web/js/api/_auto/</code>: the JS API that Silence generates with the endpoints, to call them
+        from your pages.</li>
+      <li><code>sql/</code>: the scripts that create the database and load its data.</li>
+    </ul>
+
+    <h2>Next steps</h2>
+    <p>In the admin panel: connect to the database and load it, generate the endpoints, give each one its
+      access and run their tests. Then replace this page with the first one of your app.</p>
+
+    <h2>Documentation</h2>
+    <ul>
+      <li><a href="https://github.com/DEAL-US/Silence/wiki">Silence's wiki</a></li>
+      <li><a href="https://iissi-us.github.io/ez-ui/en/">ez-ui</a>: its classes, components and JavaScript.</li>
+    </ul>
   </main>
 </body>
 </html>
