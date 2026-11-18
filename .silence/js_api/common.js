@@ -4,7 +4,7 @@
 
 const BASE_URL = "{{api_prefix}}";
 
-// The session token (saved by the login, see js/session.js) goes in the Token header
+// The session token (saved by the login, see js/utils/session.js) goes in the Token header
 const requestOptions = {
     headers: {
         get Token() { return sessionStorage.getItem("token"); },

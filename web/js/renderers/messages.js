@@ -1,7 +1,7 @@
 "use strict";
 
 // Mensajes para el usuario, con las notificaciones y las alertas de ez-ui.
-import { ezToast } from "../ez-ui/js/toast.js";
+import { ezToast } from "../../ez-ui/js/toast.js";
 
 const messageRenderer = {
   // Una notificación de éxito, que se cierra sola
